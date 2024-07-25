@@ -2,7 +2,7 @@ package Esercizio1;
 
 public class Main {
     public static void main(String[] args) {
-        
+
         Dipendente[] dipendenti = new Dipendente[3];
         dipendenti[0] = new Dipendente("TR123", 1300, Dipartimento.PRODUZIONE);
         dipendenti[1] = new Dipendente("PS456", 1600.50, Dipartimento.AMMINISTRAZIONE);
