@@ -1,6 +1,8 @@
 package Esercizio1;
 
-public abstract class Dipendente {
+import interfaces.IVolontario;
+
+public abstract class Dipendente implements IVolontario {
 
 
     //ATTRIBUTI
@@ -39,4 +41,9 @@ public abstract class Dipendente {
     }
 
     public abstract double CalculateSalary();
+
+    @Override
+    public void checkIn() {
+        System.out.println("Il " + tipoDipendente + " con matricola " + matricola + " ha fatto check-in.");
+    }
 }
